@@ -85,7 +85,7 @@ database/
 
 1. Install JDK 17+, Maven 3.6+, MySQL 8+ and Apache Tomcat 10.1+ (needs the **Jakarta**
    namespace — Tomcat 10.1.x, not 9 or 10.0).
-2. Create the schema and load sample data:
+2. Keep the SQL server running and Create the schema and load sample data:
    ```sh
    mysql -u root -p < database/schema.sql
    mysql -u root -p < database/sample-data.sql
